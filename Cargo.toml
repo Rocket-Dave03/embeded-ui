@@ -3,4 +3,5 @@ resolver = "2"
 members = [
     "embeded-ui",
 	"embeded-ui-macro",
+	"embeded-ui-test",
 ]

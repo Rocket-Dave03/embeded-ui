@@ -1,10 +1,9 @@
 [package]
-name = "embeded-ui"
+name = "embeded-ui-test"
 version = "0.1.0"
 edition = "2021"
 
-
-[lib]
-crate-type = ["lib"]
+[[bin]]
+name = "embeded-ui-test"
 
 [dependencies]
