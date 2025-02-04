@@ -8,3 +8,4 @@ edition = "2021"
 crate-type = ["lib"]
 
 [dependencies]
+rgb = "0.8"
