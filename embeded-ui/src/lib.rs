@@ -1,5 +1,8 @@
 #![no_std]
 
+#[cfg(feature = "std")]
+extern crate std;
+
 pub mod ui;
 use core::ops::{Add, AddAssign, Sub, SubAssign};
 

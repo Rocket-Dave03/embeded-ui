@@ -9,3 +9,8 @@ crate-type = ["lib"]
 
 [dependencies]
 rgb = "0.8"
+
+
+[features]
+default = []
+std = []
