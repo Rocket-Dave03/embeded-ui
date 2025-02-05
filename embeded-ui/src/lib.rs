@@ -3,7 +3,9 @@
 #[cfg(feature = "std")]
 extern crate std;
 
+pub mod display;
 pub mod ui;
+
 use core::ops::{Add, AddAssign, Sub, SubAssign};
 
 pub fn add(left: u64, right: u64) -> u64 {

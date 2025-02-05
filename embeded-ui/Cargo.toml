@@ -11,6 +11,11 @@ crate-type = ["lib"]
 rgb = "0.8"
 
 
+# Desktop window test display
+winit = {version = "0.30", optional = true}
+softbuffer = {version = "0.4", optional = true}
+
 [features]
 default = []
 std = []
+desktop = ["std", "dep:winit", "dep:softbuffer"]
